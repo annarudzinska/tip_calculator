@@ -1,0 +1,61 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tip calculator</title>
+        <link rel="stylesheet" href="Kalkulator-style.css">
+        <script type="text/javascript" src="Kalkulator.js" defer></script>
+    </head>
+
+    <body>
+    <div id="flexcontainer">
+        <div id="mainBox">
+            <span class="titles"><h2>Tip calculator</h2></span><br><br>
+
+
+            <form>
+                <label for="receipt">How much did you pay (in PLN)?</label><br>
+                <input type="text" id="receipt" name="receipt"><br><br>
+                
+                <label for="tip_perc">How much you want to tip?</label><br>
+                <select id="tip_perc" name="tip_perc">
+                    <option disabled selected value="0">Select</option>
+                    <option value="0.05">5%</option>
+                    <option value="0.1">10%</option>
+                    <option value="0.15">15%</option>
+                    <option value="0.2">20%</option>
+                </select><br><br>
+
+                <label for="people_no">How many people are paying?</label><br>
+                 <input type="text" id="people_no" name="people_no"><br><br> 
+                <!-- <input type="radio" id="1" name="people_no" value="1">
+                <label for="1">1</label><br>
+                <input type="radio" id="2" name="people_no" value="2">
+                <label for="2">2</label><br>
+                <input type="radio" id="3" name="people_no" value="3">
+                <label for="3">3</label><br>
+                <input type="radio" id="4" name="people_no" value="4">
+                <label for="4">4</label><br>
+                <input type="radio" id="5" name="people_no" value="5">
+                <label for="5">5</label><br>
+                <input type="radio" id="6" name="people_no" value="6">
+                <label for="6">6</label><br>
+                    -->
+            </form>    
+            
+            <button type="button" id="calculate">
+            <h2 class="titles">Calculate</h2>
+            </button>
+            
+            <div id="totalTip">
+                <p>You have to pay</p>
+                <span id="tip">0.00</span><p>PLN</p>
+                <small id="each">each</small>
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+   
+</html>
