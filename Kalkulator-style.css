@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 0);
+
+}
+#flexcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#mainBox{
+    height: 70vmin;
+    width: 20vmax;
+    background-color: rgb(83, 0, 0);
+    border: solid 2px white;
+    border-radius: 25px;
+    padding: 2%;
+    position: relative;
+    text-align: center;
+    align-items: center;
+
+}
+.titles{
+    text-align: center;
+    
+}
+form {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+#calculate{
+    width:50%;
+    border:white solid 1px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#totalTip {
+    width:50%;
+    border:black solid 1px;
+    border-radius: 10px;
+    background-color:white;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
+    margin:auto;
+}
