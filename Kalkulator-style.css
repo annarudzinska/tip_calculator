@@ -12,7 +12,7 @@ body{
 
 }
 #mainBox{
-    height: 70vmin;
+    height: 100%;
     width: 20vmax;
     background-color: rgb(83, 0, 0);
     border: solid 2px white;
